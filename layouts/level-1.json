@@ -18,7 +18,7 @@
     "gridColor": 0,
     "gridAlpha": 0.5,
     "snap": true,
-    "zoomFactor": 1.0080249061300404,
+    "zoomFactor": 0.7991896661026102,
     "windowMask": false
   },
   "objectsGroups": [
@@ -23320,7 +23320,8 @@
               },
               "parameters": [
                 "Mindy",
-                "Obstacle"
+                "Obstacle",
+                ""
               ]
             }
           ]
@@ -23472,7 +23473,7 @@
                 "grass_light_steps.mp3",
                 "1",
                 "yes",
-                "5",
+                "1",
                 ""
               ]
             }
