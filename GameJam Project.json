@@ -1,0 +1,4577 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "portrait",
+    "packageName": "com.example.isometricworld",
+    "pixelsRounding": false,
+    "projectUuid": "06d48c4f-2c8c-4385-b42f-813dd6d8c023",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptHeight",
+    "templateSlug": "isometric-game",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "GameJam Project",
+    "description": "",
+    "author": "",
+    "windowWidth": 720,
+    "windowHeight": 1280,
+    "latestCompilationDirectory": "C:\\Users\\davyh\\Documents\\GDevelop projects\\_Export\\NavMeshIsometry",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "android-icon-144.png",
+      "android-icon-192": "android-icon-192.png",
+      "android-icon-36": "android-icon-36.png",
+      "android-icon-48": "android-icon-48.png",
+      "android-icon-72": "android-icon-72.png",
+      "android-icon-96": "android-icon-96.png",
+      "desktop-icon-512": "desktop-icon-512.png",
+      "ios-icon-100": "ios-icon-100.png",
+      "ios-icon-1024": "ios-icon-1024.png",
+      "ios-icon-114": "ios-icon-114.png",
+      "ios-icon-120": "ios-icon-120.png",
+      "ios-icon-144": "ios-icon-144.png",
+      "ios-icon-152": "ios-icon-152.png",
+      "ios-icon-167": "ios-icon-167.png",
+      "ios-icon-180": "ios-icon-180.png",
+      "ios-icon-20": "ios-icon-20.png",
+      "ios-icon-29": "ios-icon-29.png",
+      "ios-icon-40": "ios-icon-40.png",
+      "ios-icon-50": "ios-icon-50.png",
+      "ios-icon-57": "ios-icon-57.png",
+      "ios-icon-58": "ios-icon-58.png",
+      "ios-icon-60": "ios-icon-60.png",
+      "ios-icon-72": "ios-icon-72.png",
+      "ios-icon-76": "ios-icon-76.png",
+      "ios-icon-80": "ios-icon-80.png",
+      "ios-icon-87": "ios-icon-87.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "tyznWKffRFUWZGhxk0jOs7xA5dy2"
+    ],
+    "authorUsernames": [
+      "khizarfunky"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [
+      {
+        "extension": "NavMeshPathfinding",
+        "property": "AreaBottomBound",
+        "value": "1700"
+      },
+      {
+        "extension": "NavMeshPathfinding",
+        "property": "AreaLeftBound",
+        "value": "-250"
+      },
+      {
+        "extension": "NavMeshPathfinding",
+        "property": "AreaRightBound",
+        "value": "1900"
+      },
+      {
+        "extension": "NavMeshPathfinding",
+        "property": "AreaTopBound",
+        "value": "-150"
+      },
+      {
+        "extension": "NavMeshPathfinding",
+        "property": "CellSize",
+        "value": "20"
+      },
+      {
+        "extension": "NavMeshPathfinding",
+        "property": "Viewpoint",
+        "value": "Isometry 2:1 (26.565°)"
+      },
+      {
+        "extension": "NavMeshPathfinding",
+        "property": "cellSize",
+        "value": "20"
+      },
+      {
+        "extension": "NavMeshPathfinding",
+        "property": "viewpoint",
+        "value": "Isometry 2:1 (26.565°)"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aright0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aright0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_right0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_right0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_down0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_down0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_back0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_back0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_aleft0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_aleft0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_left0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_left0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_up0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_up0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/run_top0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "run_top0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0033.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0034.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0035.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0036.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0037.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0038.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0039.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0040.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0041.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0044.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0045.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0046.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0047.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0047.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0048.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0048.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0049.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0049.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0050.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0051.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0051.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0052.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0053.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0053.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0054.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0054.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0055.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0055.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0056.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0057.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0058.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0059.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0059.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_move0060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_move0060.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0031.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0033.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0034.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0035.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0036.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0037.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0039.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0040.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0041.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0042.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0044.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0045.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0046.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0047.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0047.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0048.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0048.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0049.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0049.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0050.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0051.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0051.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0052.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0053.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0053.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0054.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0054.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0055.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0055.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0056.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0057.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0058.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0059.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0059.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0060.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0061.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0061.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0062.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0063.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0063.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0064.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0064.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0065.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0065.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0066.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0066.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0067.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0067.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0068.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0068.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0069.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0069.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0070.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0071.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0071.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0072.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0072.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0073.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0073.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0074.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0075.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0075.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0076.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0076.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0077.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0078.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0079.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0080.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0081.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0082.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0083.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0083.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0084.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0084.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0085.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0085.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0086.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0086.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0087.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0088.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0088.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cs_idle_move0089.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cs_idle_move0089.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0033.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0034.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0035.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0036.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0037.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0039.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0040.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0042.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0044.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0045.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0046.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0047.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0047.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0048.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0048.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0049.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0049.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0050.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0051.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0051.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0052.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0053.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0053.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0054.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0054.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0055.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0055.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0056.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0057.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0058.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0059.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0059.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0060.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0061.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0061.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0062.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0063.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0063.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0064.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0064.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0065.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0065.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0066.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0066.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0067.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0067.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0068.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0068.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0069.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0069.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0070.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0071.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0071.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0072.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0072.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0073.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0073.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0074.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0075.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0075.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0076.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0076.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0077.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0078.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0079.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0080.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0081.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0082.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0083.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0083.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0084.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0084.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0085.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0085.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0086.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0086.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0087.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0088.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0088.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0089.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0089.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0090.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0091.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0091.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0092.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0093.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0094.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0094.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0095.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0095.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0096.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0096.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0097.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0097.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0098.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0099.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0099.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0101.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0102.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0103.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0103.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0104.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0104.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0105.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0105.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0106.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0106.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0107.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0107.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0108.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0108.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0109.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0109.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0110.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0110.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0111.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0111.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0112.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0112.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0113.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0113.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0114.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0115.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0115.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0116.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0116.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0117.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0117.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0118.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0118.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle_talk0119.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_talk0119.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bloc_wall_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bloc_wall_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pont_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pont_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/rock_high.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rock_high.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/wood_panel_shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wood_panel_shadow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/grass_tile_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grass_tile_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/grass_light_steps.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "grass_light_steps.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/grass_tile_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grass_tile_22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bloc_wall_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bloc_wall_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/android-icon-192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-192.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/android-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-144.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/android-icon-96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-96.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/android-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/android-icon-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-48.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/android-icon-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-36.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-1024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-180.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-167.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-167.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-152.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-144.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-120.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-114.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-100.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-87.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-80.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-76.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-60.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-58.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-57.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-40.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ios-icon-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Obstacle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Obstacle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Obstacle1x1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Obstacle1x1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Obstacle4x1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Obstacle4x1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Obstacle1x4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Obstacle1x4.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/topdownmovementanimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/charactermovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/copycamerasettings"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/navmeshpathfinding"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ysort"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

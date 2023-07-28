@@ -1,0 +1,313 @@
+{
+  "author": "",
+  "category": "",
+  "extensionNamespace": "",
+  "fullName": "CharacterMovement",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "CharacterMovement",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "description": "Originally automatically extracted from events of the project",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "Choose the animation according to the object movement.",
+      "fullName": "Choose animation according to movement",
+      "functionType": "Action",
+      "name": "ChooseAnimationDirection",
+      "sentence": "Choose the animation of _PARAM1_ according to the movement",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "Mindy",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Mindy",
+                "TopDownAnimator",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "Mindy",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Mindy",
+                "TopDownAnimator",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BehaviorActivated"
+                  },
+                  "parameters": [
+                    "Mindy",
+                    "NavMeshPathfindingBehavior"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "NavMeshPathfinding::NavMeshPathfindingBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Mindy",
+                    "NavMeshPathfindingBehavior"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Mindy",
+                "PathfindingAnimator",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BehaviorActivated"
+              },
+              "parameters": [
+                "Mindy",
+                "NavMeshPathfindingBehavior"
+              ]
+            },
+            {
+              "type": {
+                "value": "NavMeshPathfinding::NavMeshPathfindingBehavior::IsMoving"
+              },
+              "parameters": [
+                "Mindy",
+                "NavMeshPathfindingBehavior"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Mindy",
+                "PathfindingAnimator",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CharacterMovement::IsMoving"
+              },
+              "parameters": [
+                "Mindy",
+                "Mindy",
+                "NavMeshPathfindingBehavior",
+                "TopDownMovement",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Mindy",
+                "\"Idle\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Mindy",
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        },
+        {
+          "description": "Pathinding",
+          "name": "NavMeshPathfindingBehavior",
+          "supplementaryInformation": "NavMeshPathfinding::NavMeshPathfindingBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Top-down movement",
+          "name": "TopDownMovement",
+          "supplementaryInformation": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Top-down movement animator",
+          "name": "TopDownAnimator",
+          "supplementaryInformation": "TopDownMovementAnimator::TopDownMovementAnimator",
+          "type": "behavior"
+        },
+        {
+          "description": "Navigation mesh pathfinding animator",
+          "name": "PathfindingAnimator",
+          "supplementaryInformation": "NavMeshPathfinding::NavMeshPathfindingAnimator",
+          "type": "behavior"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Check if the object is moving.",
+      "fullName": "Is moving",
+      "functionType": "Condition",
+      "name": "IsMoving",
+      "sentence": "_PARAM1_ is moving",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Mindy",
+                    "TopDownMovement"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BehaviorActivated"
+                      },
+                      "parameters": [
+                        "Mindy",
+                        "NavMeshPathfindingBehavior"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NavMeshPathfinding::NavMeshPathfindingBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "Mindy",
+                        "NavMeshPathfindingBehavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnBoolean"
+              },
+              "parameters": [
+                "True"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Mindy",
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        },
+        {
+          "description": "Pathinding",
+          "name": "NavMeshPathfindingBehavior",
+          "supplementaryInformation": "NavMeshPathfinding::NavMeshPathfindingBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Top-down movement",
+          "name": "TopDownMovement",
+          "supplementaryInformation": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "type": "behavior"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
